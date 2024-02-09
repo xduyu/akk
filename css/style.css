@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+body,html{
+    height: 100%;
+    background-color: rgb(23, 23, 23);
+}
+
+
+.cont__title{
+    color: white;
+    font-family: 'Protest Riot', sans-serif;
+    display: flex;
+    font-size: 100px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 200px;
+    animation: mom 4s;
+}
+
+@media screen and (min-width: 390px) and (min-height: 844px) {
+}
+
+.desc__text{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    margin-top: 400px;
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.desc__text:hover{
+    color: rgb(255, 94, 148);
+    transform: scale(20px);
+}
+
+.desc__party{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    margin-top: 490px;
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.desc__party:hover{
+    color: rgb(255, 94, 148);
+    transform: scale(20px);
+}
+
+.cont__title:hover{
+    color: rgb(255, 94, 148);
+    transform: scale(20px);
+}
+
+.desc__part-second:hover{
+    color: rgb(255, 94, 148);
+    transform: scale(20px);
+}
+
+.desc__part-second{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    margin-top: 490px;
+    font-size: 50px;
+    justify-content: center;
+    text-align: center; 
+}
+
+@media screen and (min-width: 390px) and (min-height: 844px) {
+    .desc__text{
+        margin-top: 900px;
+    }
+
+    .cont__title{
+        margin-top: 700px;
+     }
+     .desc__party{
+        color: rgb(255, 255, 255);
+        margin-top: 1200px;
+     }
+
+     .desc__part-second{
+        margin-top: 1200px;
+     }
+}
+
+@keyframes mom { 
+    from{
+        transform: translateY(-300px);
+        color: rgb(255, 94, 148);
+    }
+}
